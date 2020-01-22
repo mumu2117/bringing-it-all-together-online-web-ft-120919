@@ -19,7 +19,7 @@ let(:teddy) {Dog.new(name: "Teddy", breed: "cockapoo")}
 
   describe "attributes" do
     it 'has a name and a breed' do
-     dog = Dog.new("Fido", "lab")
+     dog = Dog.new(name: "Fido", breed: "lab")
       expect(dog.name).to eq("Fido")
       expect(dog.breed).to eq("lab")
     end
